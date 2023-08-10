@@ -1,0 +1,27 @@
+{
+  "name": "entrelinhas",
+  "version": "1.0.0",
+  "description": "Uma plataforma de estudos para iniciantes em programação web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemluz/entrelinhas.git"
+  },
+  "keywords": [
+    "entrelinhas"
+  ],
+  "author": "Jemima Luz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemluz/entrelinhas/issues"
+  },
+  "homepage": "https://github.com/jemluz/entrelinhas#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
