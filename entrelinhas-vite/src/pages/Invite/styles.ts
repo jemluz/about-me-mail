@@ -6,16 +6,35 @@ export const Wrapper = styled.div`
   grid-template-rows: 30fr 20fr 10fr 20fr 10fr;
 
   height: 100vh;
-  color: #fff
 `
 
-export const Avatar = styled.div`
+export const LeftTopContainer = styled.div`
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 
-  background: red;
   height: 100%;
   width: 100%;
+
+  border-bottom: 3px solid #E3E3E3;
+
+  display: flex;
+  justify-content: flex-end;
+`
+
+export const LeftTopContent = styled.div`
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const Avatar = styled.img`
+  height: 10rem;
+  width: 10rem;
+
+  border-radius: 99px;
+  border: 3px solid #E3E3E3;
 `
 
 export const Links = styled.nav`
