@@ -1,4 +1,6 @@
-import { CallToAction, Avatar, Wrapper, Links, LeftTopContainer, LeftTopContent } from "./styles";
+import { YoutubeLogo } from "@phosphor-icons/react";
+import { CallToAction, Avatar, Wrapper, LeftTopContainer, LeftTopContent, LeftBottomConainter, LeftBottomContent, GitHubBtn, LinkedinBtn, YoutubeBtn } from "./styles";
+import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 export function Invite() {
   return <>
@@ -10,7 +12,20 @@ export function Invite() {
         </LeftTopContent>
       </LeftTopContainer>
 
-      <Links> links </Links>
+      <LeftBottomConainter>
+        <LeftBottomContent>
+          <GitHubBtn>
+            <GitHubLogoIcon />
+          </GitHubBtn>
+          <LinkedinBtn>
+            <LinkedInLogoIcon />
+          </LinkedinBtn>
+          <YoutubeBtn>
+            <YoutubeLogo size={28} weight="fill" />
+          </YoutubeBtn>
+        </LeftBottomContent>
+      </LeftBottomConainter>
+
       <CallToAction>
         call to action
       </CallToAction>
